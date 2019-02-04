@@ -2,3 +2,7 @@
 *.layout
 *.depend
 *.o
+/*.cbp
+/*.layout
+/*.depend
+/*.o
