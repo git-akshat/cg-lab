@@ -14,6 +14,7 @@
 2. Write a program to demonstrate the two views, orthographic view and perspective view, of OpenGL by consider a 2D and a 3D with any two primitives.
 
 3. Write a program to deisgn a scenery by using the following OpenGL buit-in shapes.
+
 | glutSolidSphere(float radius, int slices, int stacks) | Circle | Sphere | Choose an integer 20-100 for the slices and stacks arguments; the higher the number, the more accurate the sphere/circle. |
 | ----------------------------------- | ------ | ------ | ------------------------------------------------- |
 | glutSolidCube(double size) | Square | Cube | |
