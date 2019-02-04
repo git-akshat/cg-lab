@@ -1,6 +1,6 @@
 # computer-graphics
 1. Write a program to demonstrate the following OpenGL primitives with either RGB or indexed colors(as suggested by examiner):
-- GL_POINTS 
+- GL_POINTS
 - GL_LINES 
 - GL_LINE_STRIP 
 - GL_LINE_LOOP
@@ -16,7 +16,6 @@
 3. Write a program to deisgn a scenery by using the following OpenGL buit-in shapes.
 
 | glutSolidSphere(float radius, int slices, int stacks) | Circle | Sphere | Choose an integer 20-100 for the slices and stacks arguments; the higher the number, the more accurate the sphere/circle. |
-| ----------------------------------- | ------ | ------ | ------------------------------------------------- |
 | glutSolidCube(double size) | Square | Cube | |
 | glutSolidCone(double base, double height, int slices, int stacks) | Triangle | Cone | The greater the slices argument is, the smoother the cone will appear. |
 | glutSolidTorus(double innerRadius, double outerRadius, int nSides, int rings) |  | Torus | |
