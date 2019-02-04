@@ -18,19 +18,10 @@
 | glutSolidSphere(float radius, int slices, int stacks) | Circle | Sphere | Choose an integer 20-100 for the slices and stacks arguments; the higher the number, the more accurate the sphere/circle. |
 | ----------------------------------- | ------ | ------ | ------------------------------------------------- |
 | glutSolidCube(double size) | Square | Cube | |
-glutSolidCone(double base,
-double height, int slices, int
-stacks)
-Triangle Cone
-The greater the slices argument
-is, the smoother the cone will
-appear.
-glutSolidTorus(double
-innerRadius, double
-outerRadius, int nSides, int
-rings)
-Torus
-glutSolidTeapot(float radius)
+| glutSolidCone(double base, double height, int slices, int stacks) | Triangle | Cone | The greater the slices argument is, the smoother the cone will appear. |
+| glutSolidTorus(double innerRadius, double outerRadius, int nSides, int rings) |  | Torus | |
+| glutSolidTeapot(float radius) | | | |
+
 4. Write a recursive program to construct a 3D Sierpinski gasket with polygons.
 Applicable for the academic year 2017-18Batch: 2015
 Department of Computer Science & Engineering, SIT, Tumkur 36
