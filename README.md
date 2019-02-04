@@ -1,27 +1,21 @@
 # computer-graphics
-` 1. Write a program to demonstrate the following OpenGL primitives with either RGB
-     or indexed colors(as suggested by examiner):
-      i) GL_POINTS 
-     ii) GL_LINES 
-     ii) GL_LINE_STRIP 
-    iii) GL_LINE_LOOP
-     iv) GL_TRIANGLES 
-      v) GL_TRIANGLE_STRIP
-     vi) GL_TRIANGLE_FAN
-    vii) GL_QUADS 
-   viii) GL_QUAD_STRIP
-     ix) GL_POLYGON `
+1. Write a program to demonstrate the following OpenGL primitives with either RGB or indexed colors(as suggested by examiner):
+- GL_POINTS 
+- GL_LINES 
+- GL_LINE_STRIP 
+- GL_LINE_LOOP
+- GL_TRIANGLES 
+- GL_TRIANGLE_STRIP
+- GL_TRIANGLE_FAN
+- GL_QUADS 
+- GL_QUAD_STRIP
+- GL_POLYGON 
 
-2. Write a program to demonstrate the two views, orthographic view and perspective
-view, of OpenGL by consider a 2D and a 3D with any two primitives.(Dimension is
-suggested by the examiner).
+2. Write a program to demonstrate the two views, orthographic view and perspective view, of OpenGL by consider a 2D and a 3D with any two primitives.
+
 3. Write a program to deisgn a scenery by using the following OpenGL buit-in shapes.
-glutSolidSphere(float radius,
-int slices, int stacks) Circle Sphere
-Choose an integer 20-100 for
-the slices and stacks arguments;
-the higher the number, the more
-accurate the sphere/circle.
+|--------------- | ----------------- | -------------- | ---------------------- |
+| glutSolidSphere(float radius, int slices, int stacks) | Circle | Sphere | Choose an integer 20-100 for the slices and stacks arguments; the higher the number, the more accurate the sphere/circle.
 glutSolidCube(double size) Square Cube
 glutSolidCone(double base,
 double height, int slices, int
