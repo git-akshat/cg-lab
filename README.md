@@ -15,8 +15,9 @@
 
 3. Write a program to deisgn a scenery by using the following OpenGL buit-in shapes.
 
-| ---------------------------------------------- | ------ | ------ | ------------------------------------------------- |
+
 | glutSolidSphere(float radius, int slices, int stacks) | Circle | Sphere | Choose an integer 20-100 for the slices and stacks arguments; the higher the number, the more accurate the sphere/circle. |
+| ---------------------------------------------- | ------ | ------ | ------------------------------------------------- |
 | glutSolidCube(double size) | Square | Cube | |
 | glutSolidCone(double base, double height, int slices, int stacks) | Triangle | Cone | The greater the slices argument is, the smoother the cone will appear. |
 | glutSolidTorus(double innerRadius, double outerRadius, int nSides, int rings) |  | Torus | |
@@ -27,9 +28,9 @@
 5. Write a program to demonstrate the plotting of implicit functions with marching squares technique.
 
 6. Write a simple CAD program to model the polygons as follows:
-* Creating 2D polygons.
-* Selection of a Polygon.
-* Deletion of a polygon.
+a. Creating 2D polygons.
+b. Selection of a Polygon.
+c. Deletion of a polygon.
 
 7.Write a program to demonstrate the OpenGL transformation functions with any of the suitable primitive for the following transformations:
 * Translate
