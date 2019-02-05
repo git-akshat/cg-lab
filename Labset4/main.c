@@ -4,6 +4,7 @@
 typedef float point[3];
 point v[]={{0.0,0.0,1.0},{0.0,0.942809,-0.333333},{-0.816497,-0.471405,-0.333333},{0.816497,-0.471405,-0.333333}};
 int n;
+
 void draw_triangle(point a,point b,point c)
 {
     glBegin(GL_POLYGON);
