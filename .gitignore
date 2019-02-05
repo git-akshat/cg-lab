@@ -2,9 +2,9 @@
 *.layout
 *.depend
 *.o
-/*.cbp
-/*.layout
-/*.depend
-/*.o
-bin
-obj
+*/*.cbp
+*/*.layout
+*/*.depend
+*/*.o
+/bin
+/obj
