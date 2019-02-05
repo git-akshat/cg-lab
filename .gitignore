@@ -6,3 +6,5 @@
 /*.layout
 /*.depend
 /*.o
+bin
+obj
