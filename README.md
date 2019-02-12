@@ -49,3 +49,14 @@
 #### 10. Write a program to fill the a star like structure with any one of the following algorithms:
 * Flood fill
 * Scan-Line fill
+
+
+## For running open gl programs in linux
+
+### (1) Install these libraries
+` sudo apt-get install freeglut3 libgles2-mesa-dev `
+
+` sudo apt-get install freeglut3-dev `
+
+### (2) For compiling program
+` gcc main.c  -lGL  -lGLU  -lglut `
