@@ -53,9 +53,7 @@
 
 ## For running open gl programs in linux
 
-### (1) Install these libraries
-` sudo apt-get install freeglut3 libgles2-mesa-dev `
-
+### (1) Install these libraries `
 ` sudo apt-get install freeglut3-dev `
 
 ### (2) For compiling program
