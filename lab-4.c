@@ -2,10 +2,7 @@
 #include<GL/glut.h>
 
 typedef float point[3];
-point v[] = {{0.0,0.0,1.0},
-			{0.0,0.9,-0.3},
-			{-0.8,-0.4,-0.3},
-			{0.8,-0.4,-0.3}};
+point v[]={{0.0,0.0,1.0},{0.0,0.9,-0.3},{-0.8,-0.4,-0.3},{0.8,-0.4,-0.3}};
 int n;
 
 void draw_triangle(point a,point b,point c)

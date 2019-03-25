@@ -94,7 +94,7 @@ glRotatef(270,1.0,0.0,0.0);
 glutWireCone(1,1,50,50);
 glPopMatrix();
 
-//cloud
+//clouds
 glPushMatrix();
 glColor3d(1,1,1);
 glTranslated(-3.0,3.0,8);
@@ -157,7 +157,7 @@ glutInit(&argc,argv);
 glutInitDisplayMode(GLUT_RGB|GLUT_DOUBLE|GLUT_DEPTH);
 glutInitWindowSize(500,500);
 glutInitWindowPosition(50,50);
-glutCreateWindow("Tea Pot");
+glutCreateWindow("Scenery");
 glutReshapeFunc(resize);
 glutDisplayFunc(display);
 glClearColor(0.6,0.6,1,1);

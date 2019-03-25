@@ -122,7 +122,6 @@ void draw_triangle_strip()
 {
 
     glBegin(GL_TRIANGLE_STRIP);
-    glBegin(GL_TRIANGLES);
     glVertex2f(10.0,10.0);
     glVertex2f(20.0,20.0);
     glVertex2f(30.0,10.0);
@@ -164,5 +163,4 @@ void draw_polygon()
     glVertex2f(30.0,20.0);
     glVertex2f(20.0,30.0);
 }
-
 
