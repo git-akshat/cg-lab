@@ -82,8 +82,8 @@ void draw_one(int num, int i, int j, double a, double b, double c, double d)
     double dx, dy;
     dx=(X_MAX-(X_MIN))/(N_X-1.0);
     dy=(Y_MAX-(Y_MIN))/(N_Y-1.0);
-    ox=X_MIN+i*(X_MAX-(X_MIN))/(N_X-1.0);
-    oy=Y_MIN+j*(Y_MAX-(Y_MIN))/(N_Y-1.0);
+    ox=X_MIN+i*dx;
+    oy=Y_MIN+j*dy;
     switch(num)
     {
     	case 1:
@@ -211,7 +211,7 @@ int main(int argc, char **argv)
     glutInitDisplayMode(GLUT_SINGLE|GLUT_RGB|GLUT_DEPTH);
     glClear(GL_COLOR_BUFFER_BIT);
     glutInitWindowSize(400, 400);
-    glutCreateWindow("matching square");
+    glutCreateWindow("marching square");
     glutReshapeFunc(myReshape);
     glutDisplayFunc(display);
     glClearColor(0,0,0,0.2);
